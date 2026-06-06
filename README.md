@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⌨️ type_to_position
+<img src="logo.png" width="400">
 
 ### 键盘输入工具
 

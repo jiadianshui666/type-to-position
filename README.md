@@ -1,6 +1,6 @@
 <div align="center">
 
-# Type-to-Position
+# type-to-position
 
 ### 键盘输入工具
 

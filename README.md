@@ -269,38 +269,3 @@ python type_to_position.py --delay 0.5 --interval 0.02 "测试文本" 400 250
 ### 为什么能在禁止粘贴的平台上使用？
 
 头歌、学习通等平台通过 JavaScript 拦截了 `Ctrl+V` 粘贴事件，但本工具使用的是 `SendInput` API 模拟键盘逐字输入，对操作系统和目标应用来说与真人打字完全一致，不触发粘贴事件，因此不受限制。
-
----
-
-## English
-
-This is a Python tool for **Windows** that automatically types text at specified screen coordinates.
-
-### Features
-
-- Click at any screen coordinate
-- Simulate keyboard input (supports Chinese, Emoji, etc.)
-- Read from clipboard and auto-type
-- Real-time mouse coordinate viewer
-- Bypass paste restrictions on educational platforms
-
-### Quick Start
-
-```bash
-git clone https://github.com/jiadianshui666/type-to-position.git
-cd type-to-position
-python type_to_position.py
-```
-
-### Command Line
-
-```bash
-python type_to_position.py "Hello" 500 300        # type text at coordinates
-python type_to_position.py --clipboard 500 300     # type from clipboard
-python type_to_position.py --show-mouse             # show mouse coordinates
-python type_to_position.py --no-click "Test" 400 250  # type without clicking
-```
-
-### How it works
-
-The script uses Windows API (`ctypes`) to simulate real keyboard input via `SendInput` with `KEYEVENTF_UNICODE`, making it identical to manual typing — bypassing JavaScript-based paste restrictions.

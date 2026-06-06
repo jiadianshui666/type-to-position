@@ -1,10 +1,8 @@
 <div align="center">
 
-# ⌨️ KeyType
+# ⌨️ type_to_position
 
-### Windows 键盘输入工具
-
----
+### 键盘输入工具
 
 </div>
 
@@ -24,7 +22,6 @@
 
 </div>
 
----
 
 ## 中文
 

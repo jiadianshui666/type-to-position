@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="logo.png" width="400">
+# Type-to-Position
 
 ### 键盘输入工具
 
@@ -11,14 +11,6 @@
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square&logo=windows&logoColor=white)
-![Version](https://img.shields.io/badge/version-1.0.0-green?style=flat-square)
-![Stars](https://img.shields.io/github/stars/jiadianshui666/type-to-position?style=flat-square&color=yellow)
-
-</div>
-
-<div align="center">
-
-[中文](#中文) | [English](#english)
 
 </div>
 
